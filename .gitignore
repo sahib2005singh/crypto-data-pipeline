@@ -1,0 +1,49 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# --------------------
+# Airflow
+# --------------------
+airflow.db
+airflow.cfg
+webserver_config.py
+logs/
+airflow-webserver.pid
+
+# --------------------
+# Local data (VERY IMPORTANT)
+# --------------------
+data/
+*.json
+
+# --------------------
+# Secrets / env files
+# --------------------
+.env
+.env.*
+
+# --------------------
+# Docker
+# --------------------
+*.log
+docker-compose.override.yml
+
+# --------------------
+# OS / Editor
+# --------------------
+.DS_Store
+.vscode/
+.idea/
+
+# --------------------
+# Mac / Linux junk
+# --------------------
+*.swp
