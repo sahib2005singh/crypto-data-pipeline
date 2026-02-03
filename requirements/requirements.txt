@@ -1,0 +1,5 @@
+pandas
+requests
+pyspark==3.5.0
+psycopg2-binary
+apache-airflow-providers-postgres
